@@ -1,0 +1,129 @@
+ *{
+
+    margin: 0;
+    padding: 0;
+ }
+ 
+
+ body{
+    background-color: rgb(148, 148, 148);
+    font-family: 'Nunito Sans', sans-serif;
+ }
+/* header start */
+ .container{
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: auto;
+    padding: 30px;
+   
+ }
+
+ h1,h2,h3,h4,h5,h6{
+    color: rgb(14, 14, 26);
+ }
+
+ header{
+
+
+ }
+
+ #profile-image{
+     width: 100px;
+     height: 100px;
+     border: 2px solid rgb(90, 87, 87);
+     border-radius: 50%;
+     float: left;
+ }
+
+ .header-bio{
+    float: left;
+    padding: 25px;
+    
+ }
+
+ .header-contact{
+    float: right;
+    padding: 30px;
+    
+ }
+ .header-contact a{
+   color: black;
+   text-decoration: none;
+   font-weight: bolder;
+ }
+ .header-contact a:hover{
+    color: brown;
+ }
+/* header ends */
+
+/* clearing div */
+ .clear-div{
+    clear: both;
+ }
+
+ hr{
+    color: black;
+    border: 4px solid black;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: none;
+ }
+ #personal-id{
+
+ }
+ .content{
+    margin: 30px;
+   
+
+ }
+ .left-div{
+    width: 30%;
+    float: left;
+
+ }
+ .right-div{
+    width: 70%;
+    float: left;
+
+ }
+ .common-hr{
+    color: black;
+    border: black 1px solid;
+    margin: 0px;
+    width: 100%;
+ }
+
+ /* Educational info */
+ .edu-info-left{
+    float: left;
+    width: 45%;
+    margin: 0px 10px 0px 0px;
+ }
+
+ .edu-info-right{
+    float: right;
+    width: 45%;
+    margin: 10px s 0px 0px;
+ }
+
+
+/* Footer satart */
+ .footer-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+ }
+
+ .footer-container a{
+    color: white;
+    color-decoration: none;
+    margin: 20px;
+ }
+ .footer-container a:hover{
+    color: brown;
+ }
+
+ .footer-container p{
+    color: white;
+    padding: 20px;
+ }
